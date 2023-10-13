@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.cake {
+    background-image: url('birthday_cake.png'); /* Replace 'birthday_cake.png' with your image */
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.candle {
+    font-size: 24px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    cursor: pointer;
+}
+
+.message {
+    display: none;
+    font-size: 24px;
+    color: #FF1493; /* Pink color, you can change it to your preference */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
